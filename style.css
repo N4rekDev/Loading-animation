@@ -1,0 +1,29 @@
+ .box {
+    width: 800px;
+    height: 25px;
+    border: 2px black solid;
+    border-radius: 15px;
+    display: flex;
+    justify-self: center;
+    justify-content: left;
+    align-items: center;
+ }
+
+ .green {
+    background-color: rgb(102, 165, 7);
+    width: 5%;
+    height: 100%;
+    border-radius: 14px;
+    animation-name: kanach;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+ }
+
+ @keyframes kanach {
+    100%{
+        width: 100%;
+    }
+ }
